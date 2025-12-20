@@ -35,7 +35,6 @@ fun GoodsScreenContent(
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
-                .fillMaxWidth()
                 .padding(horizontal = 16.dp)
         ) {
             var nameTextFieldValue by remember { mutableStateOf("") }
